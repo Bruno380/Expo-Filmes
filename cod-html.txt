@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantas ETEC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+	<style>
+.button {
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #555555;} /* black */
+.button1 {border-radius: 8px;}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+.info {
+    color: white;
+}
+
+.info:hover {
+    background: #d3d3d3;
+    color: white;
+}
+.default {color: black;}
+
+</style>
+
+  </head>
+  <body>
+    <!--image card layout start-->
+    <div class="container">
+      <!--image row start-->
+      <div class="row">
+
+ <!--image card start-->
+        <div class="image">
+          <img src="1.jpg" alt="">
+          <div class="details">
+            <h2><span>Acerola</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+
+        <!--image card start-->
+        <div class="image">
+          <img src="2.jpg" alt="">
+          <div class="details">
+            <h2><span>Alecrim</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+
+        <!--image card start-->
+        <div class="image">
+          <img src="3.jpg" alt="">
+          <div class="details">
+            <h2><span>Cana Indica</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+
+      </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
+
+        <!--image card start-->
+        <div class="image">
+          <img src="4.jpg" alt="">
+          <div class="details">
+            <h2><span>Clorofito</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+
+        <!--image card start-->
+        <div class="image">
+          <img src="5.jpg" alt="">
+          <div class="details">
+            <h2><span>Coqueiro</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+
+        <!--image card start-->
+        <div class="image">
+          <img src="6.jpg" alt="">
+          <div class="details">
+            <h2><span>Dracena</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+
+      </div>
+      <!--image row end-->
+    </div>
+ 
+    <div class="container">
+      <!--image row start-->
+      <div class="row">
+        <!--image card start-->
+        <div class="image">
+          <img src="7.jpg" alt="">
+          <div class="details">
+            <h2><span>Espada de sao jorge</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+
+        <!--image card start-->
+        <div class="image">
+          <img src="8.jpg" alt="">
+          <div class="details">
+            <h2><span>ixora</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+
+        <!--image card start-->
+        <div class="image">
+          <img src="9.jpg" alt="">
+          <div class="details">
+            <h2><span>jacaranda paulista</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+
+      </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
+        <!--image card start-->
+        <div class="image">
+          <img src="10.jpg" alt="">
+          <div class="details">
+            <h2><span>Jujuba</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+
+        <!--image card start-->
+        <div class="image">
+          <img src="11.jpg" alt="">
+          <div class="details">
+            <h2><span>Singonio</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+
+        <!--image card start-->
+        <div class="image">
+          <img src="12.jpg" alt="">
+          <div class="details">
+            <h2><span>Zamioculca</span></h2>
+            <div class="more">
+              <a href="#" class="read-more">Ler <span>Mais</span></a>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+      </div>
+      <!--image row end-->
+    </div>
+    <!--image card layout end-->
+<div>
+<center>
+   <button class="button button1">integrantes</button>
+   <button class="btn info">Prof Leandro</button>
+</center>
+</div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+.container {
+  margin: 2em auto;
+  width: 90%;
+  max-width: 1200px;
+  display: grid;
+  gap: 2em;
+  align-content: center;
+  grid-template-columns: repeat(8, 1fr)
+}
+
+.img {
+  background: url(https://s2-marieclaire.glbimg.com/T_DX6ffqPGvmu5rvV2neO9uK1mM=/0x0:1382x2048/984x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_51f0194726ca4cae994c33379977582d/internal_photos/bs/2023/u/n/y0xBC1SIy2idfpVSornQ/barbie-posteres.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 3em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  font-family: sans-serif;
+  grid-column: span 3;
+}
+
+.card > h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.card > p {
+  font-size: .8rem;
+  line-height: 150%;
+  color: white;
+}
+
+.card > a {
+  display: flex;
+  text-decoration: none;
+  color: purple;
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.img {
+  grid-column: 1 / 4;
+  grid-row: 1 / 5;
+  background-color: white;
+}
+
+
+@media (max-width: 760px) {
+  .container {
+    align-content: space-between;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  
+  .img {
+    aspect-ratio: 1 / 1;
+  }
+  
+  .card {
+    margin-top: 2em;
+    width: 100%;
+  }
+}
